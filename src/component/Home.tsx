@@ -30,7 +30,7 @@ export default function Home() {
         <div className="flex items-center">
           <img
             className="w-14 h-12 md:w-20 md:h-16"
-            src="public\pic\logo.png"
+            src="https://drive.google.com/file/d/1tw3TLOS7Vz70FWXMQl6lnKW-r_v-kHAy/view?usp=sharing"
           ></img>
           <h1 className="fontLeague text-2xl md:text-4xl">AQUAlity</h1>
         </div>
