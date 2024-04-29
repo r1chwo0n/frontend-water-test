@@ -19,7 +19,7 @@ export default function History() {
         <div className="flex items-center">
           <img
             className="w-14 h-12 md:w-20 md:h-16"
-            src="src\\pic\\logo.png"
+            src="public\pic\logo.png"
           ></img>
           <h1 className="fontLeague text-2xl md:text-4xl">AQUAlity</h1>
         </div>
