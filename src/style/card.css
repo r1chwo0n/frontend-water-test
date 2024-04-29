@@ -1,0 +1,22 @@
+.RectangleBlue {
+  position: absolute;
+  width: 282px;
+  height: 320px;
+  background: #92c5e8;
+  border-radius: 20px;
+}
+.EllipseBlue {
+  position: absolute;
+  width: 200px;
+  height: 200px;
+  border-radius: 100px;
+  background: #4699cd;
+}
+.boxColor {
+  position: absolute;
+  width: 52px;
+  height: 52px;
+  top: 255px;
+  left: 215px;
+  border-radius: 10px;
+}
