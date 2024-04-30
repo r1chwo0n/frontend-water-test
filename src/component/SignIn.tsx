@@ -15,13 +15,13 @@ export default function SignIn() {
     <>
       <img
         className="relative w-[600px] h-[340px] mt-48"
-        src="src\pic\signinframe.png"
+        src="/pic/signinframe.png"
       ></img>
       <div className="absolute flex flex-col space-y-1 font-['Arial']">
         <div className="flex flex-col justify-center items-center">
           <h1 className="font-bold text-4xl text-center">Sign In</h1>
           <img
-            src={showPassword ? "src\\pic\\close.png" : "src\\pic\\open.png"}
+            src={showPassword ? "/pic/close.png" : "/pic/open.png"}
             className="relative w-[250px] h-[150px]"
           />
         </div>
@@ -57,9 +57,7 @@ export default function SignIn() {
             >
               <img
                 src={
-                  showPassword
-                    ? "src\\pic\\openureye.png"
-                    : "src\\pic\\closeureye.png"
+                  showPassword ? "/pic/openureye.png" : "/pic/closeureye.png"
                 }
                 alt={showPassword ? "Open icon" : "Close icon"}
                 style={{ width: "20px", height: "20px" }}
@@ -94,11 +92,7 @@ export default function SignIn() {
             className="border rounded-xl px-1 py-1 flex items-center "
             style={{ backgroundColor: "#d9d9d9" }}
           >
-            <img
-              className="size-5"
-              src="src\pic\google.png"
-              alt="Google logo"
-            />
+            <img className="size-5" src="/pic/google.png" alt="Google logo" />
             <h2 className="ml-2 font-bold">Google</h2>
           </button>
           <button
@@ -107,7 +101,7 @@ export default function SignIn() {
           >
             <img
               className="size-5"
-              src="src\pic\facebook.png"
+              src="/pic/facebook.png"
               alt="Facebook logo"
             />
             <h2 className="ml-2 font-bold">Facebook</h2>

@@ -10,7 +10,7 @@ export default function SignUp() {
     <>
       <img
         className="relative w-[480px] h-[450px] mt-32"
-        src="src\pic\signupframe.png"
+        src="/pic/signupframe.png"
       ></img>
       <div className="absolute flex flex-col space-y-1 font-['Arial'] items-center justify-center">
         <h1 className="text-center font-bold text-4xl">Create your account</h1>
